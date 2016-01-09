@@ -1,11 +1,15 @@
 {
-  "name": "playgroundAppServices",
-  "version": "0.0.1",
-  "private": true,
-  "dependencies": {
-    "body-parser": "^1.14.2",
-    "express": "4.12.4",
-    "swaggerize-express": "^4.0.5",
-    "swaggerize-ui": "^1.0.1"
-  }
+    "name": "playgroundAppServices",
+    "version": "0.0.1",
+    "private": true,
+    "main": "src/service/server.js",
+    "scripts": {
+        "start": "node src/service/server.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.14.2",
+        "express": "4.12.4",
+        "swaggerize-express": "^4.0.5",
+        "swaggerize-ui": "^1.0.1"
+    }
 }
